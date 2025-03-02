@@ -9,7 +9,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.gotaxi.taxi.driverFlutter</string>
+	<string>com.gotaxi.taxi.driverFlutter.RunnerTests</string>
 	<key>PROJECT_ID</key>
 	<string>intoura-f7ce6</string>
 	<key>STORAGE_BUCKET</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:211444790674:ios:e64ad81ea17c48a346fd4b</string>
+	<string>1:211444790674:ios:1abd928f82a4ebb746fd4b</string>
 </dict>
 </plist>

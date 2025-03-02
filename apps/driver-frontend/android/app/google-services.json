@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "211444790674",
+    "project_id": "intoura-f7ce6",
+    "storage_bucket": "intoura-f7ce6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211444790674:android:24f20e2e6ce1403246fd4b",
+        "android_client_info": {
+          "package_name": "com.ridy.taxi.driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqArDmMMOTs-N0Va1hXSBGqAEdksypwho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

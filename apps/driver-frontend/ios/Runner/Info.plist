@@ -20,24 +20,8 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>$(FLUTTER_BUILD_NAME)</string>
-	<key>LSApplicationQueriesSchemes</key>
-	<array>
-	    <string>comgooglemaps</string>
-	    <string>baidumap</string>
-	    <string>iosamap</string>
-	    <string>waze</string>
-	    <string>yandexmaps</string>
-	    <string>yandexnavi</string>
-	    <string>citymapper</string>
-	    <string>mapswithme</string>
-	    <string>osmandmaps</string>
-	    <string>dgis</string>
-	    <string>qqmap</string>
-	    <string>here-location</string>
-	    <string>tomtomgo</string>
-	    <string>copilot</string>
-	    <string>com.sygic.aura</string>
-	</array>
+	<key>CFBundleSignature</key>
+	<string>????</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -61,14 +45,36 @@
 			</array>
 		</dict>
 	</array>
-	<key>CFBundleSignature</key>
-	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>comgooglemaps</string>
+		<string>baidumap</string>
+		<string>iosamap</string>
+		<string>waze</string>
+		<string>yandexmaps</string>
+		<string>yandexnavi</string>
+		<string>citymapper</string>
+		<string>mapswithme</string>
+		<string>osmandmaps</string>
+		<string>dgis</string>
+		<string>qqmap</string>
+		<string>here-location</string>
+		<string>tomtomgo</string>
+		<string>copilot</string>
+		<string>com.sygic.aura</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>By allowing the app to access the location, the app will be able to locate your current location and update your current rider about your current location in real-time.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>By allowing the app to access the location, the app will be able to locate your current location and update your current rider about your current location in real-time.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>By allowing the app to access photo library you can use it to upload the necessary documents or profile picutre.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UIBackgroundModes</key>
@@ -87,12 +93,6 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>By allowing the app to access photo library you can use it to upload the necessary documents or profile picutre.</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>By allowing the app to access the location, the app will be able to locate your current location and update your current rider about your current location in real-time.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>By allowing the app to access the location, the app will be able to locate your current location and update your current rider about your current location in real-time.</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

@@ -1,5 +1,8 @@
 plugins {
     id "com.android.application"
+    // START: FlutterFire Configuration
+    id 'com.google.gms.google-services'
+    // END: FlutterFire Configuration
     id "kotlin-android"
     id "dev.flutter.flutter-gradle-plugin"
 }
@@ -28,7 +31,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace "com.gotaxi.taxi.driver_flutter"
+    namespace "com.intoura.driver_flutter"
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion "27.0.12077973"
 
