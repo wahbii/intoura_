@@ -1,4 +1,4 @@
-package com.gotaxi.taxi.driver_flutter
+package com.intoura.driver_flutter
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -7,6 +7,7 @@ import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.os.PersistableBundle
+import com.intoura.driver_flutter.R
 import io.flutter.embedding.android.FlutterActivity
 
 class MainActivity: FlutterActivity() {
